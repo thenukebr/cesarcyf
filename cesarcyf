@@ -6,7 +6,6 @@
 # Tratamento dos parâmetros. Acentos podem não funcionar em sistemas não
 # configurados corretamente. Por isso, eles são tratados com a letra respectiva
 cypher="$1"
-echo "$1"
 echo "$cypher" > /tmp/tmp
 sed 'y/áÁàÀãÃâÂéÉêÊíÍõÕóÓôÔúÚçÇ/aAaAaAaAeEeEiIoOoOoOuUcC/' < /tmp/tmp > /tmp/reajust
 palavra=$(cat /tmp/reajust)
