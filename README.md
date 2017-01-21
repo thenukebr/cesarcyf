@@ -15,6 +15,7 @@ Entradas do cesarcyf
   <li>Strings informadas com acento, porém perderam seu acento após a cifragem/decifragem<li>
   <li>Seu $1 deve ser a string a ser analisada<li>
   <li>Seu $2 deve ser o número de passos da cifra, caso não saiba use: -a || --all<li>
+ <ul>
 <blockquote>
   ./cesarcyf "Olssv Mypluk" -19<br>
   $ [nn] > 	palavra<br>
@@ -31,7 +32,7 @@ Entradas do cesarcyf
   $ [05] >	Mjqqt Mfhpjw<br>
   $ [06] >	Nkrru Ngiqkx<br>
   $ [07] >	Olssv Ohjrly<br>
-  $  [08] >	Pmttw Piksmz<br>
+  $ [08] >	Pmttw Piksmz<br>
   $ [09] >	Qnuux Qjltna<br>
   $ [10] >	Rovvy Rkmuob<br>
   $ [11] >	Spwwz Slnvpc<br>
