@@ -2,9 +2,19 @@
 BruteForce em cifras de César<br>
 Dev by: VandalVNL<br>
 Linguagem: Shell Script<br>
+<br>
+<b>Não há dependências para usar este programa.<b><br>
+<br>
+Cesarcyf é um script para testar todas as possíveis combinações em uma Cifra de César.<br>
+Sendo em Bash Script, é de uso rápido, evitando o uso de ferramentas online<br>
 
-<b>Não há dependências para usar este programa.<b>
-
+<b>Este programa cria arquivos em seu diretório "/tmp"<b><br>
+Entradas do cesarcyf
+<ul>
+  <li>Este script aceita caracteres especiais<li>
+  <li>Strings informadas com acento, porém perderam seu acento após a cifragem/decifragem<li>
+  <li>Seu $1 deve ser a string a ser analisada<li>
+  <li>Seu $2 deve ser o número de passos da cifra, caso não saiba use: -a || --all<li>
 <blockquote>
   ./cesarcyf "Olssv Mypluk" -19<br>
   $ [nn] > 	palavra<br>
