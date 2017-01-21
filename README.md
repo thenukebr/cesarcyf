@@ -16,6 +16,8 @@ Entradas do cesarcyf
   <li>Seu $1 deve ser a string a ser analisada</li>
   <li>Seu $2 deve ser o número de passos da cifra, caso não saiba use: -a || --all</li>
  </ul>
+ <br>
+ <b>Exemplo de uso:</b>
 <blockquote>
   ./cesarcyf "Olssv Mypluk" -19<br>
   $ [nn] > 	palavra<br>
